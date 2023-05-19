@@ -1,0 +1,76 @@
+.second-main-div{
+    height: 135vh;
+    padding-top: 10%;
+}
+#h1{
+    font-size: 3.5rem;
+}
+.img{
+    width: 100px;
+}
+.card-img{
+    width: 60px;
+    top: 15px;
+    right: 10px;
+}
+.fourth-main-div{
+    border: 2px solid green;
+}
+.card-img4{
+    width: 50px;
+    top: 5px;
+    right: 5px;
+}
+.sixth-div{
+    background-color: cadetblue;
+}
+.bi{
+    font-size: 22px;
+    color: white;
+    cursor: pointer;
+}
+.mobile-img{
+    width: 450px;
+}
+
+@media (max-width:768px){
+    #h1{
+        font-size: 2.2rem;
+    }
+    .second-main-div{
+        height: 60vh;
+        padding-top: 4%;
+    }
+    .input-email{
+        height: 40px;
+    }
+    #h3{
+        font-size: 1.1rem;
+    }
+    .notify-btn{
+        width: 50%;
+        height: 50px;
+    }
+    .card-1st{
+        width: 80%;
+    }
+    .card{
+        width: 80%;
+    }
+    .card-img{
+        width: 50px;
+        top: 15px;
+        right: 10px;
+    }
+    .pic-div{
+        width: 80%;
+        margin:auto
+    }
+    .bi-div{
+        width: 60%;
+        padding-top: 16px;
+    }
+    .mobile-img{
+        width: 250px;
+    }
+}
