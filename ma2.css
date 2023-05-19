@@ -1,0 +1,57 @@
+ul{
+    font-size: 1.2rem;
+}
+.first-div{
+    background-image: url("../image/image.jpg");
+    height: 60vh;
+    background-repeat: no-repeat;
+}
+.img-div{
+    width: 100%;
+    
+    margin-left: 5px;
+}
+.img-div img{
+    width: 350px;
+    display: block;
+    margin: auto;
+}
+.card{
+    background-color: rgb(31, 31, 61);
+    width: 400px;
+}
+.container h1{
+    padding-top: 100px;
+}
+.second-div{
+    padding-bottom: 100px;
+    background: #000;
+}
+nav{
+    background: #000;
+}
+.third-div{
+    padding-bottom: 100px;
+}
+.footer{
+    background: black;
+}
+.bi{
+    font-size: 22px;
+    color: white;
+    cursor: pointer;
+}
+@media(max-width:768px){
+    .first-div{
+        background-image: url("./image.jpg");
+        height: 60vh;
+        background-repeat: no-repeat;
+        background-size:cover;
+    }
+    .card{
+        width: 90%;
+    }
+    nav{
+        background-color: darkcyan;
+    }
+}
